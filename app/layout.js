@@ -12,8 +12,14 @@ const geistMono = Geist_Mono({
 });
 
 export const metadata = {
-  title: "APEFIY",
-  description: "Modern Android App Development",
+  title: "Apefiy - Android App Development",
+  description:
+    "Professional Android app development, UI design and Play Store publishing services.",
+
+  // ✅ Google Search Console Verification
+  verification: {
+    google: "P7lXw9dFfCNiTK_cD4FBQoqckTXypedlp678W3-lkaw",
+  },
 };
 
 export default function RootLayout({ children }) {
